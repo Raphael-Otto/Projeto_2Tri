@@ -16,7 +16,7 @@ import MainComp from "@/components/MainComp.vue";
   margin: 0 auto;
   /* padding: 2rem; */
   height: 100vh;
-
+  background-color: white;
   font-weight: normal;
 }
 

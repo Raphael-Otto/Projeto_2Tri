@@ -44,6 +44,7 @@ header {
 
 .menu-central span {
   text-decoration: none;
+  font-family: 'Poppins' ;
 }
   
 a {
