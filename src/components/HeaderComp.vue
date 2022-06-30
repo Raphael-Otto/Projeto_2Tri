@@ -19,8 +19,8 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-header span {
-  padding: 0 30px;
+header a {
+  padding: 0px 20px;
   font-size: larger;
 }
 
@@ -28,7 +28,7 @@ header {
   margin: 0;
   background-color: #616fee;
   height: 15%;
-  font-size: 1.3rem;
+  font-size: 1rem;
   padding-left: 2rem;
   color: white;
   display: flex;
@@ -39,7 +39,8 @@ header {
 /*---------------------------------*/
 
 .menu-central {
-  padding-left: 160px;
+  padding-left: 100px;
+  padding-right: 50px;
 }
 
 .menu-central span {
@@ -55,12 +56,13 @@ a {
 /*---------------------------------*/
 
 .img-usuario {
-  padding-right: 2%;
+  margin-right: 10%;
   padding-bottom: 7.5px;
 }
 
 .menu-direito button {
-  margin-left: 400px;
+  margin-left: 300px;
+  margin-right: 20px;
   border-color: inherit;
   background-color: #616fee;
   border-radius: 30px;
