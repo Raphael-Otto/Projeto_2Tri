@@ -1,5 +1,3 @@
-<script></script>
-
 <template>
-  <p>Salame</p>
+  <h1>Inicio kkkkk</h1>
 </template>
