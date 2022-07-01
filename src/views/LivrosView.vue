@@ -3,11 +3,26 @@
       <div class="prin-cadastro">
         <div>
           <h1 class="tit-cadastro"> Cadastro de Livros </h1>
-          <input/>
-          <input/>
-          <input/>
-          <input/>
-          <input/>
+          <input placeholder="Nome do Livro"/>
+          <select>
+            <optgroup label="Editoras">
+              <option value="companhia">Companhia da Letras</option>
+              <option value="aleph">Aleph</option>
+              <option value="suma">Suma</option>
+              <option value="intrinseca">Editora Intrínseca</option>
+              <option value="record">Grupo Editorial Record</option>
+              <option value="rocco">Editora Rocco</option>
+              <option value="globo">Globo Livros</option>
+              <option value="darkside">Darkside Books</option>
+              <option value="harper">Harper Collins</option>
+              <option value="arqueiro">Arqueiro</option>
+              <option value="leya">Leya</option>
+              <option value="saraiva">Saraiva</option>
+            </optgroup>
+          </select>
+          <input placeholder="Autor(es)"/>
+          <input placeholder="ISBN"/>
+          <input placeholder="Data de Lançamento"/>
         </div>
         <div>
           <button class="cadastrar">Cadastrar</button>
@@ -20,8 +35,8 @@
 .prin-cadastro {
     margin: 55px 250px;
     padding: 30px;
-    background-color: #fafafa;
-    box-shadow: 0 2px 6px 0.1px grey;
+    box-shadow: 0 16px 40px 0.1px rgb(149, 149, 149);
+    background-image: linear-gradient(to bottom right, rgb(240, 240, 240), rgb(255, 255, 255));
     border-radius: 5px;
 }
 
@@ -33,6 +48,11 @@
     color: #616fee;
 }
 
+::placeholder {
+  font-family: 'Poppins';
+  color: grey;
+}
+
 input {
     left: 9%;
     margin: 15px 0px;
@@ -41,7 +61,21 @@ input {
     border-radius: 10px;
     border-color: #fafafa;
     border-style: solid;
-    box-shadow: 0 1.5px 4px 0.1px grey
+    box-shadow: 0 4px 8px 0.1px grey
+}
+
+select {
+    font-family: 'Poppins';
+    color: grey;
+    background-color: #fafafa;
+    left: 9%;
+    margin: 15px 0px;
+    padding: 10px;
+    width: 81.5%;
+    border-radius: 10px;
+    border-color: #fafafa;
+    border-style: solid;
+    box-shadow: 0 4px 8px 0.1px grey;
 }
 
 .cadastrar {

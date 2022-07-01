@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="logo">
+    <div class="logo-web">
       <img src="@/assets/imgs/logo-removebg-preview.png" />
     </div>
     <div class="menu-central">

@@ -5,26 +5,18 @@
             <h1 class="tit-editoras"> Editoras </h1>
           </div>
           <div class="logos">
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
-            <img src="@/assets/imgs/SaraivaLogo.png" />
+            <img class="logo" src="@/assets/imgs/SaraivaLogo.png" />
+            <img class="logo" src="@/assets/imgs/SaraivaLogo.png" />
+            <img class="logo" src="@/assets/imgs/SaraivaLogo.png" />
+            <img class="logo" src="@/assets/imgs/SaraivaLogo.png" />
+            <img class="logo" src="@/assets/imgs/SaraivaLogo.png" />
+            <img class="logo" src="@/assets/imgs/SaraivaLogo.png" />
+            <img class="logo" src="@/assets/imgs/SaraivaLogo.png" />
+            <img class="logo" src="@/assets/imgs/SaraivaLogo.png" />
+            <img class="logo" src="@/assets/imgs/SaraivaLogo.png" />
+            <img class="logo" src="@/assets/imgs/SaraivaLogo.png" />
+            <img class="logo" src="@/assets/imgs/SaraivaLogo.png" />
+            <img class="logo" src="@/assets/imgs/SaraivaLogo.png" />
           </div>
       </div>
   </main>
@@ -34,8 +26,8 @@
 .prin-editoras {
     margin: 55px 150px;
     padding: 30px;
-    background-color: #fafafa;
-    box-shadow: 0 2px 6px 0.1px grey;
+    box-shadow: 0 16px 40px 0.1px rgb(149, 149, 149);
+    background-image: linear-gradient(to bottom right, rgb(240, 240, 240), rgb(255, 255, 255));
     border-radius: 5px;
 }
 
@@ -47,7 +39,7 @@
     color: #616fee;
 }
 
-.logos img {
-    margin: 22.5px;
+.logo {
+    margin: 29px;
 }
 </style>
