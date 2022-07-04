@@ -16,7 +16,7 @@
             <img class="logo" src="@/assets/imgs/SaraivaLogo.png" />
             <img class="logo" src="@/assets/imgs/SaraivaLogo.png" />
             <img class="logo" src="@/assets/imgs/SaraivaLogo.png" />
-            <img class="logo" src="@/assets/imgs/SaraivaLogo.png" />
+            <RouterLink to="/Cad_Editoras"> <img class="add" src="@/assets/imgs/Adicionar.png" /> </RouterLink>
           </div>
       </div>
   </main>
@@ -41,5 +41,9 @@
 
 .logo {
     margin: 29px;
+}
+
+.add {
+    padding: 10px;
 }
 </style>

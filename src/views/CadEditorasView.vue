@@ -1,54 +1,19 @@
-<script>
-export default {
-  data() {
-    return {
-      novo_time:''
-    };
-  },
-methods: {
-    salvar () {
-      if (this.novo_time !== "") {
-      this.times.push({
-        nome: this.novo_time,
-        });
-        this.novo_time = "";
-      };
-    },
-  },
-};
-</script>
-
-
 <template>
-  <main>
+    <main>
       <div class="prin-cadastro">
         <div>
-          <h1 class="tit-cadastro"> Cadastro de Livros </h1>
-          <input placeholder="Nome do Livro" v-model="novo_time" />
-          <select>
-            <optgroup label="Editoras">
-              <option value="companhia">Companhia da Letras</option>
-              <option value="aleph">Aleph</option>
-              <option value="suma">Suma</option>
-              <option value="intrinseca">Editora Intrínseca</option>
-              <option value="rocco">Editora Rocco</option>
-              <option value="globo">Globo Livros</option>
-              <option value="darkside">Darkside Books</option>
-              <option value="harper">Harper Collins</option>
-              <option value="arqueiro">Arqueiro</option>
-              <option value="leya">Leya</option>
-              <option value="saraiva">Saraiva</option>
-            </optgroup>
-          </select>
-          <input placeholder="Autor(es)"/>
-          <input placeholder="ISBN"/>
-          <input placeholder="Data de Lançamento"/>
+          <h1 class="tit-cadastro"> Cadastro de Editoras </h1>
+          <input placeholder="Nome da Editora"/>
+          <input placeholder="Proprietários"/>
+          <input placeholder="CEP"/>
+          <input placeholder="E-mail de Contato"/>
+          <input placeholder="Telefone de Contato"/>
         </div>
         <div>
-          <button class="cadastrar" @click="salvar"> Cadastrar </button>
+          <button class="cadastrar">Cadastrar</button>
         </div>
       </div>       
-  </main>
+    </main>
 </template>
 
 <style>
